@@ -1,0 +1,131 @@
+.codepen--center {
+  overflow: hidden;
+}
+.dz-progress {
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+}
+.dz-upload {
+  border-radius: 3px;
+  height: 5px;
+  background: #bce29e;
+  display: block;
+  clear: both;
+}
+.dz-upload[style="width: 100%;"] {
+  display: none;
+}
+.dz-filename, .dz-size, .dz-success-mark, .dz-error-mark {
+  display: none;
+}
+span {
+	display:none;
+}
+img{
+	height:15rem;
+	width:15rem;
+}
+.shubox--form {
+  padding: 3rem;
+  text-align: left;
+}
+
+.shubox--upload-target {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 15rem;
+  height: 15rem;
+  border: dashed 3px gray;
+  cursor: pointer;
+}
+.shubox--upload-target:hover {
+  border-color: silver;
+}
+.shubox--upload-target:before {
+  content: "Drag && Drop || Click";
+  font-size: 0.8rem;
+  color: silver;
+  display: block;
+  font-family: courier;
+  margin-top: 0.4rem;
+  line-height: 1rem;
+}
+
+.shubox--upload-preview {
+  overflow: hidden;
+}
+.shubox--upload-preview > div {
+  display: inline-block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  margin-right: 1rem;
+}
+
+
+
+
+/*header*/
+.header{
+	position:relative;
+	top:12px;
+	left:12px;
+}
+.header a{
+	text-decoration:none;
+	font-size:22px;
+	color:5e2376;
+	font-family:Quicksand;
+}
+.header a:hover{
+	color:#A64AC9;
+}
+
+
+/*title*/
+.title{
+	color:#fff;
+	text-align:center;
+	border:3px dashed #bfbfbf;
+	background-color:#A64AC9;
+	padding:5px;
+	position:relative;
+	top:10px;
+	margin:5px;
+}
+.title h2{
+	font-size:48px;
+	color:#fff;
+	font-family:Pacifico;
+	letter-spacing:1px;	
+}
+.title p{
+	font-size:24px;
+	color:#fff;
+	font-family:Roboto;	
+}
+label{
+	font-family:poppins;
+	font-size:18px;
+	color:#5e2376;
+}
+
+input[type='text']
+{
+	border-radius: 25px;
+	padding:5px;
+	border:1px solid #a6a6a6;
+	margin:10px;
+	font-family:Poppins;
+}
+
+/*upload*/
+.upload{
+	padding:15px;
+}

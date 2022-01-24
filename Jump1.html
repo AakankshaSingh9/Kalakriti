@@ -1,0 +1,72 @@
+<html>
+	<head>
+	<title>Kalakriti - mainpage</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Galada|Indie+Flower|Lacquer|Lemonada|Lobster|Montserrat|Dancing+Script|Open+Sans+Condensed:300|Pacifico|Poppins|Quicksand|Raleway&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Akronim|Bungee+Inline|Fredericka+the+Great|Frijole|Give+You+Glory|Monoton|Reenie+Beanie|Rye&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	  
+	<style>
+	body{
+		overflow:hidden;
+	}
+		.redirectingpage{
+			background-image:url('../Mini Project/image/first.jpg');
+			height:700px;
+			/*filter: blur(8px);*/
+		}
+		.content{
+			z-index:2;
+			position: absolute;
+		    top: 22%;
+		    left: 25%;
+			
+			
+		}
+		.seller_login{
+			padding:10px 50px;
+			border: 1px solid #333;
+			/*border-radius:0px 10px 0px 10px;*/
+			border-right:none;
+			width:330px;
+			height:280px;
+			background-color:#fff;
+			opacity:0.85;
+			font-family:Poppins;
+			font-size:16px;
+		}
+		.customer_login{
+			border: 1px solid #333;
+			/*border-radius:0px 10px 0px 10px;*/
+			border-left:none;
+			width:355px;
+			height:280px;
+			padding:10px 50px;
+			background-color:#fff;
+			opacity:0.85;
+			font-family:Poppins;
+			font-size:16px;
+		}
+	</style>
+	</head>
+	<body>	
+		<div class="redirectingpage">
+			<div class="container">
+				<div class="col-md-12 content">
+					<div class="col-md-4 seller_login">
+						<h2>Seller Login</h2>
+						<p>If you are a seller then please click here to login and access your work.Or register yourself to be a part of this wonderful community !</p>
+						<button class="btn btn-primary" onclick="window.location.href='http://localhost/Mini%20project/Signin-Signup_seller.php';">LOGIN/SIGNUP</button>
+					</div>
+					<div class="col-md-4 customer_login">
+						<h2>Customer Login</h2>
+						<p>If you are a customer then please click here to login and explore some of the greatest work. Or register yourself to be a part of this wonderful community !</p>
+						<button class="btn btn-primary" onclick="window.location.href='http://localhost/Mini%20project/Signin-Signup_customer.php';">LOGIN/SIGNUP</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
